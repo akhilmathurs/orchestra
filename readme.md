@@ -1,8 +1,8 @@
 # Orchestra: Unsupervised Federated Learning via Globally Consistent Clustering
 
-Codebase for the paper ["Orchestra: Unsupervised Federated Learning via Globally Consistent Clustering."](https://arxiv.org/abs/) 
+Codebase for the paper ["Orchestra: Unsupervised Federated Learning via Globally Consistent Clustering."](https://arxiv.org/abs/2205.11506) 
 
-Contains federated training with several unsupervised methods, including the proposed method [Orchestra](https://arxiv.org/abs/), [SimCLR](https://arxiv.org/abs/2002.05709), [SimSiam](https://arxiv.org/abs/2011.10566), [SpecLoss](https://arxiv.org/abs/2106.04156), [BYOL](https://arxiv.org/abs/2006.07733), and [Rotation Prediction](https://arxiv.org/abs/1803.07728); supports linear evaluation protocol; semi-supervised evaluation protocol; and hyperparameter tuning via the alignment-uniformity scheme discussed in the paper.
+Contains federated training with several unsupervised methods, including the proposed method [Orchestra](https://arxiv.org/abs/2205.11506), [SimCLR](https://arxiv.org/abs/2002.05709), [SimSiam](https://arxiv.org/abs/2011.10566), [SpecLoss](https://arxiv.org/abs/2106.04156), [BYOL](https://arxiv.org/abs/2006.07733), and [Rotation Prediction](https://arxiv.org/abs/1803.07728); supports linear evaluation protocol; semi-supervised evaluation protocol; and hyperparameter tuning via the alignment-uniformity scheme discussed in the paper.
 
 ## Requirements
 
@@ -52,7 +52,7 @@ Other execution examples (semi-supervised training and hyperparameter tuning) ar
 
 * **client.py**: Client module; contains client-specific functions (e.g., unsupervised training protocol)
 
-* **models.py**: All backbone and SSL function definitions (includes [Orchestra](https://arxiv.org/abs/), [SimCLR](https://arxiv.org/abs/2002.05709), [SimSiam](https://arxiv.org/abs/2011.10566), [SpecLoss](https://arxiv.org/abs/2106.04156), [BYOL](https://arxiv.org/abs/2006.07733)), [Rotation Prediction](https://arxiv.org/abs/1803.07728))
+* **models.py**: All backbone and SSL function definitions (includes [Orchestra](https://arxiv.org/abs/2205.11506), [SimCLR](https://arxiv.org/abs/2002.05709), [SimSiam](https://arxiv.org/abs/2011.10566), [SpecLoss](https://arxiv.org/abs/2106.04156), [BYOL](https://arxiv.org/abs/2006.07733)), [Rotation Prediction](https://arxiv.org/abs/1803.07728))
 
 ### -- Evaluation protocols 
 
