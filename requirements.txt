@@ -1,5 +1,5 @@
 flwr==0.17.0
-ray
+ray==1.11.1
 torch
 torchvision
 tqdm
