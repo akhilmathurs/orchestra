@@ -29,7 +29,7 @@ python sampler.py --dataset="CIFAR10" --n_clients=100 --alpha=0.1
 Then, to train a model using a particular training method and perform linear eval, run the following command
 
 ```execution
-python main.py --config_dict="{'train_mode': 'orchestra', 'da_method': 'orchestra', 'local_lr': 0.003}" --linear_eval=True
+python main.py --config_dict="{'train_mode': 'orchestra', 'da_method': 'orchestra', 'local_lr': 0.003}" --do_linear=True
 ```
 
 Other execution examples (semi-supervised training and hyperparameter tuning) are provided in the ```examples.sh``` file.
