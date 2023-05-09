@@ -34,7 +34,7 @@ def main(config_dict, eval_dict):
     net = net.to(device)
 
     # Optimizer
-    optimizer = torch.optim.SGD(classifier.parameters(), lr=0.1, momentum=0.9, weight_decay=0)
+    optimizer = torch.optim.SGD(list(net.parameters())+list(classifier.parameters()), lr=0.1, momentum=0.9, weight_decay=0)
 
     # define lr scheduler
     lr_scheduler = utils.LR_Scheduler(optimizer, warmup_epochs=eval_dict["warmup_epochs"], warmup_lr=eval_dict["warmup_lr"], 
